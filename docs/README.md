@@ -1,22 +1,25 @@
-# OctoAcme Project Management Process Docs
+# OctoAcme Project Management Docs
 
 ## Overview
 
-OctoAcme runs projects through a clear, repeatable lifecycle that starts with validating the business need and aligning stakeholders, then moves into planning, execution, release, and continuous improvement. The team focuses on customer value, iterative delivery, clear ownership, and evidence-based decisions so work stays aligned to outcomes and can be adjusted as new information emerges.
+OctoAcme manages work through a lightweight but disciplined project lifecycle designed to turn ideas into measurable outcomes. The goal is to align stakeholders, define clear ownership, deliver in small increments, and improve decisions with evidence from delivery, testing, and user impact.
 
-## Project management processes
+## Project management process summary
 
-OctoAcme initiates projects by validating the business need, aligning stakeholders, and agreeing on measurable success criteria and an initial timeline. Approved work is planned into prioritized, estimated increments with clear acceptance criteria, ownership, dependencies, and a Definition of Done. Delivery then proceeds through a project board, regular team and stakeholder communication, testing, reviews, and risk escalation. Once the work is ready, it is released through readiness checks, deployment verification, and rollback planning. The process closes with retrospectives and tracked improvement actions that turn lessons learned into concrete follow-through.
+OctoAcme starts by validating the business need, identifying stakeholders, and agreeing on success measures before work is approved. Once a project is greenlit, the team plans work into prioritized, estimated increments with clear acceptance criteria, owners, dependencies, and a Definition of Done. Delivery then moves into execution and tracking through a project board, regular team and stakeholder communication, testing, reviews, and defined escalation paths for risks and blockers.
 
-### Lifecycle at a glance
+Before release, the team validates readiness through CI, quality checks, deployment verification, and rollback planning. After each milestone or release, the team captures learnings in a retrospective and tracks improvement actions so the process keeps improving over time.
 
-1. Initiation: confirm the problem, stakeholders, success measures, and go/no-go decision.
-2. Planning: define scope, milestones, backlog, dependencies, and delivery approach.
-3. Execution & tracking: build in small increments, manage risks, and review progress through standups and the project board.
-4. Release & deployment: validate readiness, deploy with checks, and communicate outcomes.
-5. Retrospective & improvement: capture learnings, assign action items, and adapt the process.
+This approach is grounded in four core practices:
 
-## Documentation index
+- Customer-first delivery and measurable value
+- Clear roles and ownership across product, project, and engineering work
+- Iterative execution with evidence-based decision making
+- Continuous improvement through retrospectives and action tracking
+
+## Process documentation
+
+The following documents provide detailed guidance for each stage of the OctoAcme project lifecycle:
 
 - [Project Management Overview](./octoacme-project-management-overview.md)
 - [Project Initiation Guide](./octoacme-project-initiation.md)
@@ -27,14 +30,7 @@ OctoAcme initiates projects by validating the business need, aligning stakeholde
 - [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
 - [Roles & Personas](./octoacme-roles-and-personas.md)
 
-## How to use these docs
+## Recommended use
 
-Use this folder as the entry point for learning how OctoAcme manages projects. Start with the overview for the big picture, then move into the specific guide that matches the phase or topic you need. Keep the project charter and related artifacts updated in the project repo so the team and stakeholders use a single source of truth.
+Use this README as the starting point for onboarding and navigation. Start with the [Project Management Overview](./octoacme-project-management-overview.md) for a high-level view, then move into the specific stage guide that matches your current project activity.
 
-## Related artifacts
-
-- Project charter / one-pager
-- Roadmap and release plan
-- Backlog with acceptance criteria
-- Risk register
-- Retrospective notes and action items
